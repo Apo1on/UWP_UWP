@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="UUWWPP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UUWWPP"
+    Background="White"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid HorizontalAlignment="Left" Width="1433" Margin="-62,-186,0,0">
+        <Button x:Name="MyButt" Content="Нажми меня" Margin="0,590,0,0" FontSize="36" VerticalAlignment="Top" HorizontalAlignment="Center" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="286,214,0,0" TextWrapping="Wrap" FontSize="44" Text="Переменная A" VerticalAlignment="Top"/>
+        <TextBox x:Name="Aper" HorizontalAlignment="Left" Margin="343,303,0,0" TextWrapping="Wrap" FontSize="44" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.219,0.414" Width="165"/>
+        <TextBlock x:Name="BPerText" HorizontalAlignment="Left" Margin="903,214,0,0" TextWrapping="Wrap" FontSize="44" Text="Переменная B" VerticalAlignment="Top"/>
+        <TextBox x:Name="Bper" HorizontalAlignment="Left" Margin="963,303,0,0" TextWrapping="Wrap" FontSize="44" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.219,0.414" Width="165"/>
+        <TextBox x:Name="Sum" HorizontalAlignment="Left" Margin="343,755,0,0" TextWrapping="Wrap" FontSize="44" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.219,0.414" Width="165"/>
+        <TextBox x:Name="Proz" HorizontalAlignment="Center" Margin="0,755,0,0" TextWrapping="Wrap" FontSize="44" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.219,0.414" Width="165" IsHoldingEnabled="False" IsDoubleTapEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
+        <TextBox x:Name="Raz" HorizontalAlignment="Left" Margin="964,755,0,0" TextWrapping="Wrap" FontSize="44" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.219,0.414" Width="165"/>
+        <TextBlock x:Name="APerText" HorizontalAlignment="Left" Margin="286,214,0,0" TextWrapping="Wrap" FontSize="44" Text="Переменная A" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Suma" HorizontalAlignment="Left" Margin="358,691,0,0" TextWrapping="Wrap" Text="Сумма" FontSize="44" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,691,0,0" TextWrapping="Wrap" Text="Произведение" FontSize="44" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="956,692,0,0" TextWrapping="Wrap" Text="Разность" FontSize="44" VerticalAlignment="Top"/>
+
+    </Grid>
+
+
+</Page>
